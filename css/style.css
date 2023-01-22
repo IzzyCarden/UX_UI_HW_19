@@ -1,0 +1,203 @@
+body{
+    background-color: black;
+  }
+  ul{
+    list-style-type: none;
+    color: white;
+    font-family: montserrat, arial, sans-serif;
+    font-size: large;
+    margin-top: 10%;
+  }
+  li{
+    display: inline;
+    padding: 20px;
+  }
+  .navigation{
+    display: flex;
+    justify-content: space-between;
+  }
+  .inline-block{
+   display: inline-block;
+   vertical-align: top;
+  }
+  .logo{
+    width: 23%;
+    padding: 1%;
+    text-align:center;
+  }
+  p{
+    color: white;
+    font-size: 24px;
+    font-family: montserrat, arial, sans-serif;
+    margin-left: 50%;
+    margin-top: -550px;
+    text-align: center;
+    width: 400px;
+  }
+  .p1{
+    color: white;
+    font-size: 18px;
+    font-family: montserrat, arial, sans-serif;
+    text-align: center;
+  }
+  .heroimg{
+    margin-left: -100px;
+    margin-top: 50px;
+    height: 600px;
+    padding: 25px;
+  }
+.content{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+  .button{
+    text-align:center;
+    color: white;
+    background-color: black;
+    font-size:18px;
+    float:right;
+    margin-right: -50px;
+    margin-top: 40px;
+    padding: 20px;
+    border: 2px solid #14ED29;
+  }
+  footer{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+  h1{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: montserrat, arial, sans-serif;
+    margin-top: 30%;
+  }
+  h2{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    font-family: montserrat, arial, sans-serif;
+  }
+ 
+ 
+  /*My Skills section constructed using CSS grid*/
+  /*I chose to code my skills section using grid because my design worked with columns and rows.*/
+  .X{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-top: -525px;
+    margin-left: 4%;
+  }
+  .skillset{
+    width: 200px;
+    text-align: center;
+    grid-area: skillset;
+    }
+  .skillset2{
+    width: 200px;
+    text-align: center;
+    grid-area: skillset2;
+    vertical-align: middle;
+  }
+  .skillset3{
+    width:200px;
+    text-align: center;
+    grid-area: skillset3;
+  }
+  .skillset4{
+    width: 200px;
+    text-align: center;
+    grid-area: skillset4;
+  }
+  
+  .skillsgrid{
+    display: grid;
+    justify-items: center;
+    height: 500px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
+    padding-top: 10%;
+    grid-template-areas: 
+    "skillset skillset"
+    "skillset2 skillset3"
+    "skillset4 skillset4";
+  }
+  .skillsSection{
+    padding:5%;
+  }
+  
+  
+
+ /*My Work section coded using CSS flex*/
+ /*I coded this section using flex because my design used a column layout.*/
+  .flexContainer {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    }
+  
+  .summary{
+    display: flex;
+    color: white;
+    font-size: 18px;
+    font-family: montserrat, arial, sans-serif;
+    text-align: center;
+    width: 700px;
+    }
+  .csbutton{
+    text-align:center;
+    color: white;
+    background-color: black;
+    font-size:18px;
+    padding: 20px;
+    border: 2px solid #0047FF;
+  }
+  .csbutton2{
+    text-align:center;
+    color: white;
+    background-color: black;
+    font-size:18px;
+    padding: 20px;
+    border: 2px solid #FF0000;
+  }
+  .myWork{
+    margin-top: 10%;
+  }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .flexContainer{
+      flex-flow: column wrap;
+      width: fit-content;
+    }
+    .dotr{
+      width: fit-content;
+    }
+    .netflix{
+      width: fit-content;
+    }
+    .skillsgrid{
+      display: grid;
+      justify-items: center;
+      height: 300px;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: 33% 33% 33%;
+      padding-top: 10%;
+      grid-template-areas: 
+      "skillset skillset"
+      "skillset2 skillset3"
+      "skillset4 skillset4";
+    }
+    .X{
+      width: 300px;
+      height: 300px;
+      position: absolute;
+      margin-top: -525px;
+      margin-left: 4%;
+    }
+  }
