@@ -142,11 +142,15 @@ body{
   
   .summary{
     display: flex;
+    justify-items: center;
     color: white;
     font-size: 18px;
     font-family: montserrat, arial, sans-serif;
     text-align: center;
-    width: 700px;
+    width: auto;
+    border: 2px solid #F95BF2;
+    padding: 7.5%;
+    margin-bottom: 10%;
     }
   .csbutton{
     text-align:center;
@@ -200,4 +204,23 @@ body{
       margin-top: -525px;
       margin-left: 4%;
     }
+  }
+
+  .contactinfo{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .aboutLink{
+    color: white;
+  }
+  .skillsLink{
+    color: white;
+  }
+  .workLink{
+    color: white;
+  }
+  .contactLink{
+    color: white;
   }
