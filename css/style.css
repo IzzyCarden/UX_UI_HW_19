@@ -129,7 +129,6 @@ body{
     display: grid;
     justify-items: center;
     height: 500px;
-    background-image: url("X.png");
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
     padding-top: 5%;
