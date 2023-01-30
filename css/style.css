@@ -12,6 +12,18 @@ body{
     display: inline;
     padding: 20px;
   }
+  a:link{
+    text-decoration: none;
+    color: white;
+  }
+  a:hover{
+    color:white;
+    text-decoration: underline;
+  }
+  a:active{
+    color: white;
+    text-decoration: underline;
+  }
   .navigation{
     display: flex;
     justify-content: space-between;
@@ -61,6 +73,7 @@ body{
     margin-top: 40px;
     padding: 20px;
     border: 2px solid #14ED29;
+    border-radius: 10px;
   }
   footer{
     display: inline-block;
@@ -88,7 +101,7 @@ body{
     height: 500px;
     position: absolute;
     margin-top: -525px;
-    margin-left: 4%;
+    margin-left: 5%;
   }
   .skillset{
     width: 200px;
@@ -116,9 +129,10 @@ body{
     display: grid;
     justify-items: center;
     height: 500px;
+    background-image: url("X.png");
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33%;
-    padding-top: 10%;
+    padding-top: 5%;
     grid-template-areas: 
     "skillset skillset"
     "skillset2 skillset3"
@@ -130,6 +144,11 @@ body{
   
   
 
+
+
+
+
+
  /*My Work section coded using CSS flex*/
  /*I coded this section using flex because my design used a column layout.*/
   .flexContainer {
@@ -137,9 +156,8 @@ body{
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    padding: 10%;
+    padding: 5%;
     }
-  
   .summary{
     display: flex;
     justify-items: center;
@@ -148,10 +166,24 @@ body{
     font-family: montserrat, arial, sans-serif;
     text-align: center;
     width: auto;
-    border: 2px solid #F95BF2;
+    border: 2px solid #0047FF;
     padding: 7.5%;
     margin-bottom: 10%;
+    margin-top: 5%;
     }
+    .summary2{
+      display: flex;
+      justify-items: center;
+      color: white;
+      font-size: 18px;
+      font-family: montserrat, arial, sans-serif;
+      text-align: center;
+      width: auto;
+      border: 2px solid #FF0000;
+      padding: 7.5%;
+      margin-bottom: 10%;
+      margin-top: 5%;
+      }
   .csbutton{
     text-align:center;
     color: white;
@@ -159,6 +191,7 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #0047FF;
+    border-radius: 10px;
   }
   .csbutton2{
     text-align:center;
@@ -167,6 +200,7 @@ body{
     font-size:18px;
     padding: 20px;
     border: 2px solid #FF0000;
+    border-radius: 10px;
   }
   .myWork{
     margin-top: 10%;
